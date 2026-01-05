@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Chart Background -->
+    <path
+        android:fillColor="#E8EAED"
+        android:pathData="M20,20h80v60H20z" />
+    
+    <!-- Chart Lines -->
+    <path
+        android:strokeColor="#2E8B57"
+        android:strokeWidth="3"
+        android:pathData="M30,70 40,50 50,60 60,40 70,55 80,45 90,65" />
+    
+    <!-- Data Points -->
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="30"
+        android:cy="70"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="40"
+        android:cy="50"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="50"
+        android:cy="60"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="60"
+        android:cy="40"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="70"
+        android:cy="55"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="80"
+        android:cy="45"
+        android:r="4" />
+    <circle
+        android:fillColor="#2E8B57"
+        android:cx="90"
+        android:cy="65"
+        android:r="4" />
+    
+    <!-- MGA Symbol -->
+    <path
+        android:fillColor="#0047AB"
+        android:pathData="M40,90h40v10H40z" />
+    <path
+        android:fillColor="#0047AB"
+        android:pathData="M45,85h30v5H45z" />
+</vector>

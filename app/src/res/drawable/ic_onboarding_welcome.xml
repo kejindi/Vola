@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    
+    <!-- Tree Trunk -->
+    <path
+        android:fillColor="#8B4513"
+        android:pathData="M55,70v20h10V70z" />
+    
+    <!-- Tree Leaves -->
+    <path
+        android:fillColor="#2E8B57"
+        android:pathData="M60,30c-15,0 -15,30 0,30 15,0 15,-30 0,-30z" />
+    
+    <!-- Coins -->
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M40,50a5,5 0,1 1,10 0a5,5 0,1 1,-10 0z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M70,60a5,5 0,1 1,10 0a5,5 0,1 1,-10 0z" />
+    <path
+        android:fillColor="#FFD700"
+        android:pathData="M50,80a5,5 0,1 1,10 0a5,5 0,1 1,-10 0z" />
+</vector>

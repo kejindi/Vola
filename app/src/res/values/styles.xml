@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.Vola" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primary_green</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_green</item>
+        <item name="colorSecondary">@color/coral_orange</item>
+        <item name="colorSecondaryVariant">@color/coral_orange_dark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:statusBarColor">@color/primary_green</item>
+        <item name="android:navigationBarColor">@color/background</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_vola_logo</item>
+        <item name="android:windowSplashScreenBackground">@color/primary_green</item>
+    </style>
+
+    <!-- Splash Screen Theme -->
+    <style name="Theme.Vola.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/primary_green</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_vola_logo</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/Theme.Vola</item>
+    </style>
+
+    <!-- Colors -->
+    <color name="primary_green">#2E8B57</color>
+    <color name="primary_dark_green">#1B5E20</color>
+    <color name="coral_orange">#FF6B35</color>
+    <color name="coral_orange_dark">#E65100</color>
+    <color name="cobalt_blue">#0047AB</color>
+    <color name="success_green">#34A853</color>
+    <color name="warning_yellow">#FBBC04</color>
+    <color name="error_red">#EA4335</color>
+    <color name="info_blue">#4285F4</color>
+    <color name="white">#FFFFFF</color>
+    <color name="background">#F8F9FA</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_background">#202124</color>
+    <color name="on_surface">#202124</color>
+    
+    <!-- Category Colors -->
+    <color name="category_food">#FF6B6B</color>
+    <color name="category_transport">#4ECDC4</color>
+    <color name="category_utilities">#45B7D1</color>
+    <color name="category_shopping">#96CEB4</color>
+    <color name="category_health">#FFEAA7</color>
+    <color name="category_entertainment">#DDA0DD</color>
+    <color name="category_education">#98D8C8</color>
+    <color name="category_housing">#6A89CC</color>
+</resources>

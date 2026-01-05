@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Internal storage paths -->
+    <files-path name="files" path="." />
+    <cache-path name="cache" path="." />
+    
+    <!-- External storage paths -->
+    <external-path name="external" path="." />
+    <external-files-path name="external_files" path="." />
+    <external-cache-path name="external_cache" path="." />
+    
+    <!-- Media paths -->
+    <external-media-path name="external_media" path="." />
+    
+    <!-- For exporting reports -->
+    <root-path name="root" path="." />
+    
+    <!-- For receipt images -->
+    <files-path name="receipts" path="receipts/" />
+    
+    <!-- For backup files -->
+    <files-path name="backups" path="backups/" />
+    
+    <!-- For exported data -->
+    <files-path name="exports" path="exports/" />
+</paths>

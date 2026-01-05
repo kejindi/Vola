@@ -1,0 +1,35 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Vola/gradle.properties",
+      "selection": {
+        "end": {
+          "column": 61,
+          "index": 1011,
+          "line": 34
+        },
+        "start": {
+          "column": 61,
+          "index": 1011,
+          "line": 34
+        }
+      }
+    },
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/Vola/app/build.gradle.kts",
+      "selection": {
+        "end": {
+          "column": 4,
+          "index": 198,
+          "line": 6
+        },
+        "start": {
+          "column": 4,
+          "index": 198,
+          "line": 6
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/Vola/gradle.properties"
+}

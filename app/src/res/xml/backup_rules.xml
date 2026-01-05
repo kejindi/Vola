@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Include app's internal storage -->
+    <include domain="file" path="."/>
+    
+    <!-- Include shared preferences -->
+    <include domain="sharedpref" path="."/>
+    
+    <!-- Include databases -->
+    <include domain="database" path="."/>
+    
+    <!-- Exclude sensitive data that should not be backed up -->
+    <exclude domain="sharedpref" path="vola_preferences.xml"/>
+    
+    <!-- Note: In production, you should exclude sensitive user data
+         or encrypt it before backup -->
+</full-backup-content>
